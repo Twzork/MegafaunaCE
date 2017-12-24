@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Megafauna (CE compatibility patch)</name>
+  <author>Kodapa</author>
+  <targetVersion>0.17.1557</targetVersion>
+  <description>
+Makes Megafauna mod compatible with Combat Extended.
+</description>
+</ModMetaData>

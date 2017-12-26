@@ -43,7 +43,6 @@
 			</li>
 			
 			<!-- Doedicurus -->
-			
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="Doedicurus"]</xpath>
 				<value>
@@ -73,7 +72,6 @@
 			</li>
 			
 			<!-- Entelodont / Daeodon -->
-			
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="Entelodont"]</xpath>
 				<value>
@@ -148,14 +146,14 @@
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>Blunt</li></capacities>
-							<power>24.8</power>
+							<power>26.8</power>
 							<cooldownTime>1.75</cooldownTime>
 							<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
 							<armorPenetration>0.3</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>Blunt</li></capacities>
-							<power>24.8</power>
+							<power>26.8</power>
 							<cooldownTime>1.75</cooldownTime>
 							<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
 							<armorPenetration>0.3</armorPenetration>
@@ -633,20 +631,6 @@
 					</tools>
 				</value>
 			</li>
-			
 		</operations>
 	</Operation>
 </Patch>
-
-
-
-
-
-
-
-
-
-
-
-
-

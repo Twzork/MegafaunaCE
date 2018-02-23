@@ -67,6 +67,7 @@
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
+							<label>left claws</label>
 							<capacities><li>Slash</li></capacities>
 							<power>21.8</power>
 							<cooldownTime>1.55</cooldownTime>
@@ -74,6 +75,7 @@
 							<armorPenetration>0.252</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
+							<label>right claws</label>
 							<capacities><li>Slash</li></capacities>
 							<power>18.65</power>
 							<cooldownTime>1.55</cooldownTime>
@@ -116,6 +118,7 @@
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
+							<label>left claws</label>
 							<capacities><li>Slash</li></capacities>
 							<power>29.6</power>
 							<cooldownTime>2.2</cooldownTime>
@@ -123,6 +126,7 @@
 							<armorPenetration>0.252</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
+							<label>right claws</label>
 							<capacities><li>Slash</li></capacities>
 							<power>29.6</power>
 							<cooldownTime>2.2</cooldownTime>
@@ -165,6 +169,7 @@
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
+							<label>left claws</label>
 							<capacities><li>Slash</li></capacities>
 							<power>23</power>
 							<cooldownTime>1.45</cooldownTime>
@@ -172,6 +177,7 @@
 							<armorPenetration>0.252</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
+							<label>right claws</label>
 							<capacities><li>Slash</li></capacities>
 							<power>23</power>
 							<cooldownTime>1.45</cooldownTime>
@@ -214,6 +220,8 @@
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
+							<id>lefthoofblunt</id>
+							<label>left hoof</label>
 							<capacities><li>Blunt</li></capacities>
 							<power>17.6</power>
 							<cooldownTime>1.75</cooldownTime>
@@ -221,6 +229,8 @@
 							<armorPenetration>0.38</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
+							<id>righthoofblunt</id>
+							<label>right hoof</label>
 							<capacities><li>Blunt</li></capacities>
 							<power>17.6</power>
 							<cooldownTime>1.75</cooldownTime>
@@ -228,6 +238,7 @@
 							<armorPenetration>0.38</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
 							<capacities><li>Blunt</li></capacities>
 							<power>16.6</power>
 							<cooldownTime>1.65</cooldownTime>
@@ -264,6 +275,7 @@
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
+							<label>left claw</label>
 							<capacities><li>Slash</li></capacities>
 							<power>25.35</power>
 							<cooldownTime>1.55</cooldownTime>
@@ -271,6 +283,7 @@
 							<armorPenetration>0.252</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
+							<label>right claw</label>
 							<capacities><li>Slash</li></capacities>
 							<power>25.35</power>
 							<cooldownTime>1.55</cooldownTime>
@@ -312,6 +325,7 @@
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
+							<label>claws</label>
 							<capacities><li>Slash</li></capacities>
 							<power>13.18</power>
 							<cooldownTime>1.4</cooldownTime>
@@ -354,6 +368,8 @@
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
+							<id>lefthoofblunt</id>
+							<label>left hoof</label>
 							<capacities><li>Blunt</li></capacities>
 							<power>12.6</power>
 							<cooldownTime>1.85</cooldownTime>
@@ -361,6 +377,8 @@
 							<armorPenetration>0.252</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
+							<id>righthoofblunt</id>
+							<label>right hoof</label>
 							<capacities><li>Blunt</li></capacities>
 							<power>12.6</power>
 							<cooldownTime>1.85</cooldownTime>
@@ -403,6 +421,7 @@
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
+							<label>left claw</label>
 							<capacities><li>Slash</li></capacities>
 							<power>26.2</power>
 							<cooldownTime>1.45</cooldownTime>
@@ -410,6 +429,7 @@
 							<armorPenetration>0.3</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
+							<label>right claw</label>
 							<capacities><li>Slash</li></capacities>
 							<power>26.2</power>
 							<cooldownTime>1.45</cooldownTime>

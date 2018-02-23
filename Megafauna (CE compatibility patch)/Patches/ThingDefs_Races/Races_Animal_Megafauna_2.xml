@@ -3,13 +3,11 @@
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
-
 			<li Class="CombatExtended.PatchOperationFindMod">
-			<modName>Megafauna</modName>
+				<modName>Megafauna</modName>
 			</li>
-<!-- ======================================================UPDATE#2====================================================== -->
-<!-- Gomphotaria -->
-			
+	
+			<!-- Gomphotaria seal-->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="Gomphotaria"]</xpath>
 				<value>
@@ -30,30 +28,21 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName="Gomphotaria"]/race/baseHealthScale</xpath>
-					<value>
-						<baseHealthScale>9</baseHealthScale>
-					</value>
-			</li>
-			
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName="Gomphotaria"]/verbs</xpath>
+				<xpath>*/ThingDef[defName="Gomphotaria"]/tools</xpath>
 				<value>
-					<verbs>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>2</defaultCooldownTime>
-							<meleeDamageBaseAmount>46</meleeDamageBaseAmount>
-							<meleeDamageDef>Bite</meleeDamageDef>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>10</power>
+							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.3</meleeArmorPenetration>
+							<armorPenetration>0.3</armorPenetration>
 						</li>
-					</verbs>
+					</tools>
 				</value>
 			</li>
 			
-<!-- Diprotodon -->
-			
+			<!-- Diprotodon bear-->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="Diprotodon"]</xpath>
 				<value>
@@ -71,50 +60,40 @@
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 				</value>
-			</li>
-			
-			<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName="Diprotodon"]/race/baseHealthScale</xpath>
-					<value>
-						<baseHealthScale>7</baseHealthScale>
-					</value>
-			</li>
-			
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName="Diprotodon"]/verbs</xpath>
-				<value>
-					<verbs>
-					
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>1.55</defaultCooldownTime>
-							<meleeDamageBaseAmount>22</meleeDamageBaseAmount>
-							<meleeDamageDef>Slash</meleeDamageDef>
-							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.25</meleeArmorPenetration>
-						</li>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>1.55</defaultCooldownTime>
-							<meleeDamageBaseAmount>22</meleeDamageBaseAmount>
-							<meleeDamageDef>Slash</meleeDamageDef>
-							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.25</meleeArmorPenetration>
-						</li>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>2</defaultCooldownTime>
-							<meleeDamageBaseAmount>29</meleeDamageBaseAmount>
-							<meleeDamageDef>Bite</meleeDamageDef>
-							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.3</meleeArmorPenetration>
-						</li>
-					</verbs>
-				</value>
 			</li>			
 			
-<!-- ShortfacedBear -->
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="Diprotodon"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left claws</label>
+							<capacities><li>Slash</li></capacities>
+							<power>21.8</power>
+							<cooldownTime>1.55</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right claws</label>
+							<capacities><li>Slash</li></capacities>
+							<power>18.65</power>
+							<cooldownTime>1.55</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>24</power>
+							<cooldownTime>2</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
+						</li>
+					</tools>
+				</value>
+			</li>
 			
+			<!-- ShortfacedBear -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="ShortfacedBear"]</xpath>
 				<value>
@@ -135,47 +114,37 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName="ShortfacedBear"]/race/baseHealthScale</xpath>
-					<value>
-						<baseHealthScale>7.5</baseHealthScale>
-					</value>
+				<xpath>*/ThingDef[defName="ShortfacedBear"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left claws</label>
+							<capacities><li>Slash</li></capacities>
+							<power>29.6</power>
+							<cooldownTime>2.2</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right claws</label>
+							<capacities><li>Slash</li></capacities>
+							<power>29.6</power>
+							<cooldownTime>2.2</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>37</power>
+							<cooldownTime>2.75</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
+						</li>
+					</tools>
+				</value>
 			</li>
 			
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName="ShortfacedBear"]/verbs</xpath>
-				<value>
-					<verbs>
-					
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>2.2</defaultCooldownTime>
-							<meleeDamageBaseAmount>42</meleeDamageBaseAmount>
-							<meleeDamageDef>Slash</meleeDamageDef>
-							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.25</meleeArmorPenetration>
-						</li>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>2.2</defaultCooldownTime>
-							<meleeDamageBaseAmount>42</meleeDamageBaseAmount>
-							<meleeDamageDef>Slash</meleeDamageDef>
-							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.25</meleeArmorPenetration>
-						</li>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>2.75</defaultCooldownTime>
-							<meleeDamageBaseAmount>53</meleeDamageBaseAmount>
-							<meleeDamageDef>Bite</meleeDamageDef>
-							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.3</meleeArmorPenetration>
-						</li>
-					</verbs>
-				</value>
-			</li>			
-			
-<!-- Dinocrocuta -->
-			
+			<!-- Dinocrocuta hyena-->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="Dinocrocuta"]</xpath>
 				<value>
@@ -196,47 +165,37 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName="Dinocrocuta"]/race/baseHealthScale</xpath>
-					<value>
-						<baseHealthScale>7</baseHealthScale>
-					</value>
+				<xpath>*/ThingDef[defName="Dinocrocuta"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left claws</label>
+							<capacities><li>Slash</li></capacities>
+							<power>23</power>
+							<cooldownTime>1.45</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right claws</label>
+							<capacities><li>Slash</li></capacities>
+							<power>23</power>
+							<cooldownTime>1.45</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>28.6</power>
+							<cooldownTime>1.8</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
+						</li>
+					</tools>
+				</value>
 			</li>
 			
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName="Dinocrocuta"]/verbs</xpath>
-				<value>
-					<verbs>
-					
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>1.45</defaultCooldownTime>
-							<meleeDamageBaseAmount>31</meleeDamageBaseAmount>
-							<meleeDamageDef>Slash</meleeDamageDef>
-							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.25</meleeArmorPenetration>
-						</li>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>1.45</defaultCooldownTime>
-							<meleeDamageBaseAmount>31</meleeDamageBaseAmount>
-							<meleeDamageDef>Slash</meleeDamageDef>
-							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.25</meleeArmorPenetration>
-						</li>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>1.8</defaultCooldownTime>
-							<meleeDamageBaseAmount>39</meleeDamageBaseAmount>
-							<meleeDamageDef>Bite</meleeDamageDef>
-							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.3</meleeArmorPenetration>
-						</li>
-					</verbs>
-				</value>
-			</li>			
-			
-<!-- Sivatherium -->
-	
+			<!-- Sivatherium giraffe-->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="Sivatherium"]</xpath>
 				<value>
@@ -257,43 +216,237 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
-					<xpath>*/ThingDef[defName="Sivatherium"]/race/baseHealthScale</xpath>
-					<value>
-						<baseHealthScale>9</baseHealthScale>
-					</value>
+				<xpath>*/ThingDef[defName="Sivatherium"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<id>lefthoofblunt</id>
+							<label>left hoof</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>17.6</power>
+							<cooldownTime>1.75</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+							<armorPenetration>0.38</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<id>righthoofblunt</id>
+							<label>right hoof</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>17.6</power>
+							<cooldownTime>1.75</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+							<armorPenetration>0.38</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>16.6</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetration>0.32</armorPenetration>
+						</li>
+					</tools>
+				</value>
+			</li>
+			
+			<!-- ======================================================UPDATE#3====================================================== -->
+			<!-- Andrewsarchus dog-->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[defName="Andrewsarchus"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>Quadruped</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="Andrewsarchus"]/statBases</xpath>
+				<value>
+				<MeleeDodgeChance>0.09</MeleeDodgeChance>
+				<MeleeCritChance>0.4</MeleeCritChance>
+				<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+				</value>
 			</li>
 			
 			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName="Sivatherium"]/verbs</xpath>
+				<xpath>*/ThingDef[defName="Andrewsarchus"]/tools</xpath>
 				<value>
-					<verbs>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>1.75</defaultCooldownTime>
-							<meleeDamageBaseAmount>24</meleeDamageBaseAmount>
-							<meleeDamageDef>Blunt</meleeDamageDef>
-							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.38</meleeArmorPenetration>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left claw</label>
+							<capacities><li>Slash</li></capacities>
+							<power>25.35</power>
+							<cooldownTime>1.55</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
 						</li>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>1.75</defaultCooldownTime>
-							<meleeDamageBaseAmount>24</meleeDamageBaseAmount>
-							<meleeDamageDef>Blunt</meleeDamageDef>
-							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.38</meleeArmorPenetration>
+						<li Class="CombatExtended.ToolCE">
+							<label>right claw</label>
+							<capacities><li>Slash</li></capacities>
+							<power>25.35</power>
+							<cooldownTime>1.55</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
 						</li>
-						<li Class="CombatExtended.VerbPropertiesCE">
-							<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
-							<defaultCooldownTime>1.65</defaultCooldownTime>
-							<meleeDamageBaseAmount>23</meleeDamageBaseAmount>
-							<meleeDamageDef>Blunt</meleeDamageDef>
-							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<meleeArmorPenetration>0.32</meleeArmorPenetration>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>31</power>
+							<cooldownTime>1.9</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<armorPenetration>0.3</armorPenetration>
 						</li>
-					</verbs>
+					</tools>
 				</value>
-			</li>		  
+			</li>
+			
+			<!-- Dinornis chicken-->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[defName="Dinornis"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>Birdlike</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="Dinornis"]/statBases</xpath>
+				<value>
+				<MeleeDodgeChance>0.09</MeleeDodgeChance>
+				<MeleeCritChance>0.76</MeleeCritChance>
+				<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="Dinornis"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>claws</label>
+							<capacities><li>Slash</li></capacities>
+							<power>13.18</power>
+							<cooldownTime>1.4</cooldownTime>
+							<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+							<armorPenetration>0.2</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>16.95</power>
+							<cooldownTime>1.8</cooldownTime>
+							<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+							<armorPenetration>0.3</armorPenetration>
+						</li>
+					</tools>
+				</value>
+			</li>
+			
+			<!-- Macrauchenia weirdlips-->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[defName="Macrauchenia"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>Quadruped</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="Macrauchenia"]/statBases</xpath>
+				<value>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>
+				<MeleeCritChance>0.5</MeleeCritChance>
+				<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.125</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="Macrauchenia"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<id>lefthoofblunt</id>
+							<label>left hoof</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>12.6</power>
+							<cooldownTime>1.85</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<id>righthoofblunt</id>
+							<label>right hoof</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>12.6</power>
+							<cooldownTime>1.85</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+							<armorPenetration>0.252</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>13.6</power>
+							<cooldownTime>2</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<armorPenetration>0.3</armorPenetration>
+						</li>
+					</tools>
+				</value>
+			</li>
+			
+			<!-- Quinkana croc-->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[defName="Quinkana"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>Serpentine</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="Quinkana"]/statBases</xpath>
+				<value>
+				<MeleeDodgeChance>0.09</MeleeDodgeChance>
+				<MeleeCritChance>0.4</MeleeCritChance>
+				<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="Quinkana"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left claw</label>
+							<capacities><li>Slash</li></capacities>
+							<power>26.2</power>
+							<cooldownTime>1.45</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+							<armorPenetration>0.3</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right claw</label>
+							<capacities><li>Slash</li></capacities>
+							<power>26.2</power>
+							<cooldownTime>1.45</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+							<armorPenetration>0.3</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>34.34</power>
+							<cooldownTime>1.9</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<armorPenetration>0.3</armorPenetration>
+						</li>
+					</tools>
+				</value>
+			</li>
+			
 		</operations>
 	</Operation>
 </Patch>

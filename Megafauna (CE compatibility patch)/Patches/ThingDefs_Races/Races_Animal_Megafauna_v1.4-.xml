@@ -21,10 +21,10 @@
 				<xpath>*/ThingDef[defName="Deinotherium"]/statBases</xpath>
 				<value>
 				<MeleeDodgeChance>0.09</MeleeDodgeChance>
-				<MeleeCritChance>0.8</MeleeCritChance>
+				<MeleeCritChance>0.7</MeleeCritChance>
 				<ArmorRating_Blunt>0.16</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.32</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -65,11 +65,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Aurochs"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeDodgeChance>0.12</MeleeDodgeChance>
+				<MeleeCritChance>0.4</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -118,9 +118,9 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Megalochelys"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeDodgeChance>0.09</MeleeDodgeChance>
+				<MeleeCritChance>0.3</MeleeCritChance>
+				<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -154,10 +154,10 @@
 				<xpath>*/ThingDef[defName="Palaeeudyptes"]/statBases</xpath>
 				<value>
 				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeCritChance>0.3</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -197,11 +197,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Josephoartigasia"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeDodgeChance>0.12</MeleeDodgeChance>
+				<MeleeCritChance>0.3</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -249,11 +249,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Gigantophis"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeDodgeChance>0.1</MeleeDodgeChance>
+				<MeleeCritChance>0.4</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -285,9 +285,9 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Meganeura"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeDodgeChance>0.25</MeleeDodgeChance>
+				<MeleeCritChance>0.25</MeleeCritChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -319,11 +319,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Zygolophodon"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeDodgeChance>0.09</MeleeDodgeChance>
+				<MeleeCritChance>0.7</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -372,11 +372,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Platybelodon"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeDodgeChance>0.12</MeleeDodgeChance>
+				<MeleeCritChance>0.3</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -426,10 +426,10 @@
 				<xpath>*/ThingDef[defName="Purussaurus"]/statBases</xpath>
 				<value>
 				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeCritChance>0.7</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -477,11 +477,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Uintatherium"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeDodgeChance>0.09</MeleeDodgeChance>
+				<MeleeCritChance>0.7</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -522,9 +522,9 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Pulmonoscorpius"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeDodgeChance>0.12</MeleeDodgeChance>
+				<MeleeCritChance>0.4</MeleeCritChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -532,7 +532,13 @@
 				<xpath>*/ThingDef[defName="Pulmonoscorpius"]/tools</xpath>
 				<value>
 					<tools>
-						
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>15.7</power>
+							<cooldownTime>1.25</cooldownTime>
+							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+							<armorPenetration>0.2</armorPenetration>
+						</li>
 					</tools>
 				</value>
 			</li>
@@ -550,11 +556,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Dinopithecus"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeDodgeChance>0.25</MeleeDodgeChance>
+				<MeleeCritChance>0.3</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -602,11 +608,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Castoroides"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeDodgeChance>0.12</MeleeDodgeChance>
+				<MeleeCritChance>0.4</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -655,10 +661,10 @@
 				<xpath>*/ThingDef[defName="Enhydriodon"]/statBases</xpath>
 				<value>
 				<MeleeDodgeChance>0.15</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeCritChance>0.4</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			

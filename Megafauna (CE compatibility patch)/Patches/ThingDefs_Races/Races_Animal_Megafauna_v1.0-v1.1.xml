@@ -22,7 +22,7 @@
 				<value>
 				<MeleeDodgeChance>0.09</MeleeDodgeChance>
 				<MeleeCritChance>0.4</MeleeCritChance>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -93,7 +93,7 @@
 				<MeleeCritChance>0.5</MeleeCritChance>
 				<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.125</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -145,7 +145,7 @@
 				<MeleeCritChance>0.4</MeleeCritChance>
 				<ArmorRating_Blunt>0.14</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.16</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -197,7 +197,7 @@
 				<MeleeCritChance>0.76</MeleeCritChance>
 				<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -248,7 +248,7 @@
 				<MeleeCritChance>0.45</MeleeCritChance>
 				<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.13</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -292,7 +292,7 @@
 				<MeleeCritChance>0.45</MeleeCritChance>
 				<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -328,7 +328,7 @@
 				<MeleeCritChance>0.8</MeleeCritChance>
 				<ArmorRating_Blunt>0.16</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.32</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -374,7 +374,7 @@
 				<MeleeCritChance>0.8</MeleeCritChance>
 				<ArmorRating_Blunt>0.16</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.32</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -419,7 +419,7 @@
 				<MeleeCritChance>0.4</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -471,7 +471,7 @@
 				<MeleeCritChance>0.7</MeleeCritChance>
 				<ArmorRating_Blunt>0.14</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.16</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -523,7 +523,7 @@
 				<MeleeCritChance>0.5</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.2</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -576,7 +576,7 @@
 				<MeleeCritChance>0.4</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -628,7 +628,7 @@
 				<MeleeCritChance>0.4</MeleeCritChance>
 				<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			

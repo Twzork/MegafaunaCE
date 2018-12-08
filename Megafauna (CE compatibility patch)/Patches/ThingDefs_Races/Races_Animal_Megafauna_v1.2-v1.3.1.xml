@@ -24,7 +24,7 @@
 				<MeleeCritChance>0.4</MeleeCritChance>
 				<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.13</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -60,7 +60,7 @@
 				<MeleeCritChance>0.7</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>			
 			
@@ -112,7 +112,7 @@
 				<MeleeCritChance>0.4</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -164,7 +164,7 @@
 				<MeleeCritChance>0.5</MeleeCritChance>
 				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -216,7 +216,7 @@
 				<MeleeCritChance>0.45</MeleeCritChance>
 				<ArmorRating_Blunt>0.14</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.16</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -266,11 +266,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Andrewsarchus"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.09</MeleeDodgeChance>
-				<MeleeCritChance>0.4</MeleeCritChance>
+				<MeleeDodgeChance>0.15</MeleeDodgeChance>
+				<MeleeCritChance>0.5</MeleeCritChance>
 				<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -318,11 +318,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Dinornis"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.09</MeleeDodgeChance>
-				<MeleeCritChance>0.76</MeleeCritChance>
+				<MeleeDodgeChance>0.15</MeleeDodgeChance>
+				<MeleeCritChance>0.3</MeleeCritChance>
 				<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -361,11 +361,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Macrauchenia"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.2</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeDodgeChance>0.12</MeleeDodgeChance>
+				<MeleeCritChance>0.3</MeleeCritChance>
 				<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.125</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			
@@ -413,11 +413,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="Quinkana"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.09</MeleeDodgeChance>
-				<MeleeCritChance>0.4</MeleeCritChance>
+				<MeleeDodgeChance>0.15</MeleeDodgeChance>
+				<MeleeCritChance>0.5</MeleeCritChance>
 				<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
-				<MeleeParryChance>0.51</MeleeParryChance>
+				<MeleeParryChance>0.1</MeleeParryChance>
 				</value>
 			</li>
 			

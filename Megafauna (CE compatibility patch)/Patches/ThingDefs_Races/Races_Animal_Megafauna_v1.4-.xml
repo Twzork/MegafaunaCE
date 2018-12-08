@@ -110,7 +110,7 @@
 				<xpath>*/ThingDef[defName="Megalochelys"]</xpath>
 				<value>
 				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadrupedlow</bodyShape>
+					<bodyShape>QuadrupedLow</bodyShape>
 				</li>
 				</value>
 			</li>
@@ -135,13 +135,6 @@
 							<cooldownTime>2.6</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetration>0.32</armorPenetration>
-						</li>
-						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
-							<power>20.6</power>
-							<cooldownTime>2.6</cooldownTime>
-							<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
-							<armorPenetration>0.3</armorPenetration>
 						</li>
 					</tools>
 				</value>
@@ -196,7 +189,7 @@
 				<xpath>*/ThingDef[defName="Josephoartigasia"]</xpath>
 				<value>
 				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadrupedlow</bodyShape>
+					<bodyShape>QuadrupedLow</bodyShape>
 				</li>
 				</value>
 			</li>
@@ -284,7 +277,7 @@
 				<xpath>*/ThingDef[defName="Meganeura"]</xpath>
 				<value>
 				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadrupedlow</bodyShape>
+					<bodyShape>QuadrupedLow</bodyShape>
 				</li>
 				</value>
 			</li>
@@ -521,7 +514,7 @@
 				<xpath>*/ThingDef[defName="Pulmonoscorpius"]</xpath>
 				<value>
 				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadrupedlow</bodyShape>
+					<bodyShape>QuadrupedLow</bodyShape>
 				</li>
 				</value>
 			</li>
@@ -601,7 +594,7 @@
 				<xpath>*/ThingDef[defName="Castoroides"]</xpath>
 				<value>
 				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadrupedlow</bodyShape>
+					<bodyShape>QuadrupedLow</bodyShape>
 				</li>
 				</value>
 			</li>
@@ -653,7 +646,7 @@
 				<xpath>*/ThingDef[defName="Enhydriodon"]</xpath>
 				<value>
 				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadrupedlow</bodyShape>
+					<bodyShape>QuadrupedLow</bodyShape>
 				</li>
 				</value>
 			</li>

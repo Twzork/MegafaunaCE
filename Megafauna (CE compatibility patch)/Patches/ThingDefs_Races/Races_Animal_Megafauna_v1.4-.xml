@@ -120,8 +120,6 @@
 				<value>
 				<MeleeDodgeChance>0.15</MeleeDodgeChance>
 				<MeleeCritChance>0.5</MeleeCritChance>
-				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
-				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 				<MeleeParryChance>0.51</MeleeParryChance>
 				</value>
 			</li>
@@ -296,8 +294,6 @@
 				<value>
 				<MeleeDodgeChance>0.15</MeleeDodgeChance>
 				<MeleeCritChance>0.5</MeleeCritChance>
-				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
-				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 				<MeleeParryChance>0.51</MeleeParryChance>
 				</value>
 			</li>
@@ -535,8 +531,6 @@
 				<value>
 				<MeleeDodgeChance>0.15</MeleeDodgeChance>
 				<MeleeCritChance>0.5</MeleeCritChance>
-				<ArmorRating_Blunt>0.13</ArmorRating_Blunt>
-				<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 				<MeleeParryChance>0.51</MeleeParryChance>
 				</value>
 			</li>

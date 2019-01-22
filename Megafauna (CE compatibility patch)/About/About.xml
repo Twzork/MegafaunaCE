@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>Megafauna (CE compatibility patch)</name>
   <author>Kodapa</author>
-  <targetVersion>1.0.2059</targetVersion>
+  <supportedVersions><li>1.0</li></supportedVersions>
   <description>
 Makes Megafauna mod compatible with Combat Extended.
 </description>
